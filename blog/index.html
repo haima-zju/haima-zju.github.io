@@ -515,15 +515,6 @@
                     <li>
                         <article>
                             <header>
-                                <a href="/categories/nn/">NN</a>
-                                <span style="float:right;">1</span>
-                            </header>
-                        </article>
-                    </li>
-                
-                    <li>
-                        <article>
-                            <header>
                                 <a href="/categories/deep-learning/">deep learning</a>
                                 <span style="float:right;">1</span>
                             </header>
@@ -534,6 +525,15 @@
                         <article>
                             <header>
                                 <a href="/categories/hugo/">hugo</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/nn/">NN</a>
                                 <span style="float:right;">1</span>
                             </header>
                         </article>
@@ -654,9 +654,22 @@
             
             <script>hljs.initHighlightingOnLoad();</script>
             
-    <script type="text/javascript"
-  	src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-    </script>
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
     </body>
 </html>
 
