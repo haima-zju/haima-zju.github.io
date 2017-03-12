@@ -252,7 +252,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;$(y_{2}-\hat y)$&lt;/code&gt;为输出层误差，&lt;code&gt;$ (y_{2}-\hat y) * f^{&#39;}(z_{2})$&lt;/code&gt;为输出层输入误差&lt;code&gt;$\delta{_2}$&lt;/code&gt;，&lt;code&gt;$\delta{_2}\times \hat y^{T}_{1}$&lt;/code&gt;为&lt;code&gt;$W_{1}$&lt;/code&gt;的梯度&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;$W_{1}\times \delta{_2}$&lt;/code&gt;为中间层的输出误差，&lt;code&gt;$W_{1}\times \delta{_2}*f^{&#39;}(z_{1})$&lt;/code&gt;为中间层的输入误差&lt;code&gt;$\delta{_1}$，$\delta{_1}\times \hat x^{T}$&lt;/code&gt;为&lt;code&gt;$W_{0}$&lt;/code&gt;的梯度&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;$W_{1}\times \delta{_2}$&lt;/code&gt;为中间层的输出误差，&lt;code&gt;$W_{1}\times \delta{_2}*f^{&#39;}(z_{1})$&lt;/code&gt;为中间层的输入误差，&lt;code&gt;$\delta{_1}$，$\delta{_1}\times \hat x^{T}$&lt;/code&gt;为&lt;code&gt;$W_{0}$&lt;/code&gt;的梯度&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;那么对于多层网络呢，同样适用&lt;/p&gt;
